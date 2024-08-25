@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: -15%;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    padding-top: 2%;
+    width: 100%;
+    height: 17%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+.logo {
+    height: 40%;
+    width: 10%;
+    padding-left: -10%;
+}
+
+ul {
+    display: flex;
+    gap: 20%;
+}
+
+li {
+    padding-top: 6%;
+    list-style-type: none;
+    font-family: century gothic;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(233, 36, 22);
+    transition: 0.3s;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.signup {
+    width: 100px;
+    height: 45%;
+    font-size: 18px;
+    border-radius: 30px;
+    border-top-left-radius: 95px;
+ border-bottom-right-radius: 95px;
+    background-color: rgb(233, 36, 22);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login {
+    width: 100px;
+    height: 45%;
+    border-radius: 30px;
+    border-top-left-radius: 95px;
+ border-bottom-right-radius: 95px;
+    font-size: 18px;
+    background-color: rgb(211, 205, 205);
+    color: rgb(29, 28, 28);
+    border: none;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: rgb(194, 56, 46);
+}
+
+.login:hover {
+    background-color: rgb(185, 181, 181);
+}
+
+i {
+    color: white;
+    display: none;
+}
+
+
+.sec1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 8%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: century gothic;
+    color: rgb(141, 104, 9);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+span {
+    color: rgb(5, 107, 5);
+} 
+
+.imgs {
+    margin-top: 1%;
+    margin-left: 27%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    align-content: center;
+}
+
+.imge {
+    width: 20%;
+    height: 0%;
+    border-top-left-radius: 95px;
+ border-bottom-right-radius: 95px;
+    border-radius: 30px;
+    animation-name: image3;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+.sec2 {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(236, 227, 203);
+    padding: 5%;
+}
+
+.insidesec2 {
+    height: max-content;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-top: 10%;
+    padding-left: 40%;
+    width: 90%;
+    font-size: 55px;
+    color: rgb(170, 19, 95);
+    font-family: century gothic;
+}
+
+p {
+    padding-left: 40%;
+    width: 90%;
+    padding-top: 2%;
+    font-family: century gothic;
+    font-size: 22px;
+    color: rgb(170, 19, 95);
+}
+
+.sec2images {
+    display: flex;
+}
+
+.sec2img1 {
+    width: 45%;
+    height: 30%;
+    margin-left: 10%;
+}
+
+.sec2img2 {
+     border-radius: none;
+    width: 65%;
+    height: 15%;
+    margin-left: 1%;
+}
+
+.sec3 {
+    overflow: hidden;
+    background-color: rgb(213, 245, 235);
+    width: 100%;
+    height: 90%;
+    padding: 5%;
+}
+
+.insidesec3 {
+    height: max-content;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3text > h3 {
+    width: 60%;
+    height: 20%;
+    padding-top: 10%;
+    font-size: 53px;
+    color: rgb(10, 90, 37);
+    font-family: century gothic;
+}
+
+.sec3text > p {
+    padding-top: 7%;
+    font-family: century gothic;
+    font-size: 22px;
+    color: rgb(10, 90, 37);
+}
+
+.explorebtn {
+    width: 170px;
+    height: 50%;
+    padding: 3%;
+    font-size: 18px;
+    border-radius: 30px;
+    border-top-left-radius: 75px;
+ border-bottom-right-radius: 75px;
+    background-color: rgb(233, 36, 22);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.explorebtn:hover {
+    background-color: rgb(194, 56, 46);
+}
+
+.sec4 {
+    padding: 4%;
+    width: 100%;
+    height: 60%;
+    background-image: url(images/annie-spratt-R3LcfTvcGWY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    padding-top: 12%;
+    font-family: century gothic;
+    font-size: 70px;
+    width: 40%;
+    color: white;
+}
+
+.form {
+    height: 100%;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 40px rgb(197, 195, 195);
+    padding: 2%;
+}
+
+h5 {
+    font-size: 40px;
+    font-family: century gothic;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 40%;
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding: 3%;
+}
+
+input::placeholder {
+    font-family: century gothic;
+    font-size: 16px;
+}
+
+label {
+    font-size: 20px;
+    font-family: century gothic;
+    color: rgb(78, 77, 77);
+    cursor: pointer;
+}
+
+label:focus:active {
+    border: 2px solid rgb(233, 36, 22);
+}
+
+
+
+@keyframes image3 {
+    0% {
+        opacity: 0;
+        top: 60%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 30%;
+    }
+}
+
+
+@media (max-width:1070px) {
+    li {
+    display: none;
+    }
+
+    i {
+        color: black;
+        font-size: 27px;
+        padding-right: 6%;
+        cursor: pointer;
+    display: flex;
+    }
+
+    nav {
+    height: 10%;
+    padding-top: 1.5%;
+    }
+
+    .logo {
+        height: 30%;
+        width: 20%;
+    }
+
+    .imge {
+        border-radius: 15px;
+    }
+
+    .signup, .login {
+        border-radius: 15px;
+        border-top-left-radius: 75px;
+ border-bottom-right-radius: 75px;
+    }
+
+    .sec1 {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:500px) {
+    nav {
+        position: fixed;
+    }
+    .sec1 {
+        height: 250px;
+        margin-top: 40%;
+    }
+
+    .sec2 {
+        height: 60%;
+    }
+
+    h2 {
+        font-size: 40px;
+        padding-left: 25%;
+    }
+
+    p {
+        padding-left: 25%;
+    }
+
+    .page {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .imgs {
+        margin-left: 19%;
+    }
+
+    .sec3text > h3 {
+        font-size: 38px;
+    }
+
+    
+    .sec3text > p {
+        font-size: 16px;
+    }
+
+    .sec3imgs {
+        flex-direction: column;
+    }
+
+    .sec3img {
+        margin-top: 25%;
+        height: 70%;
+        width: 75%;
+    }
+
+    .sec3img2 {
+        height: 65%;
+        width: 95%;
+    }
+
+    h4 {
+        font-size: 50px;
+    }
+
+    .form {
+        height: 50%;
+        padding: 3.5%;
+    }
+
+    h5 {
+        font-size: 25px;
+        padding-bottom: 4%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .explorebtn {
+        width: 90px;
+    }
+}
